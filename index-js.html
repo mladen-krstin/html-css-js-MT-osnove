@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS 001</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <p id="poruka"></p>
+    <button onclick="setujVrednost(1);">Jedan</button>
+    <button onclick="setujVrednost(2);">Dva</button>
+    <button onclick="setujVrednost(3);">Tri</button>
+    <script>
+      var poruke = ['Nista ne radi', 'Sve je u redu', 'Kraj'];
+
+      function setujVrednost(indeks) {
+        let poruka = document.querySelector('#poruka');
+
+        poruka.innerText = poruke[indeks - 1];
+      }
+    </script>
+  </body>
+</html>
