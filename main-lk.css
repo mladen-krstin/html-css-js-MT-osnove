@@ -1,0 +1,77 @@
+.licna-karta {
+  display: grid;
+  width: 490px;
+  height: 300px;
+  padding: 4px 8px;
+  border: 3px solid #000;
+  grid-template:
+    'sg bp rep rep rep'
+    'sg bp lk lk lk'
+    'fo fo pre pre cg'
+    'fo fo ime ime cg'
+    'fo fo dr dr cg'
+    'fo fo pol reg ss'
+    'fo fo diz diz ss'
+    'fo fo dva dva ss'
+    'di di di di po';
+  grid-template-columns: 80px 80px 100px 100px 130px;
+  grid-template-rows: 30px 30px 35px 35px 35px 35px 35px 35px 30px;
+}
+
+.sg {
+  grid-area: sg;
+}
+
+.rep {
+  grid-area: rep;
+}
+
+.lk {
+  grid-area: lk;
+}
+
+.fo {
+  grid-area: fo;
+}
+
+.pre {
+  grid-area: pre;
+}
+.ime {
+  grid-area: ime;
+}
+
+.dr {
+  grid-area: dr;
+}
+
+.cg {
+  grid-area: cg;
+}
+.pol {
+  grid-area: pol;
+}
+
+.reg {
+  grid-area: reg;
+}
+
+.diz {
+  grid-area: diz;
+}
+
+.dva {
+  grid-area: dva;
+}
+
+.ss {
+  grid-area: ss;
+}
+
+.di {
+  grid-area: di;
+}
+
+.po {
+  grid-area: po;
+}
